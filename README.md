@@ -17,7 +17,7 @@ Runs locally. No network calls. The source file is only read, never modified.
 - Negative values in columns that should not have them (amount, price, hours, etc.)
 - Outliers, using the IQR method (values beyond 1.5x the interquartile range)
 
-## Run it
+## Run it (Replace C:\data\file.csv with you path)
 ```powershell
 .\profile_data.ps1 -CsvPath "C:\data\file.csv"
 ```
